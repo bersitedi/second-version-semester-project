@@ -24,7 +24,7 @@ const SpecialOffers = () => {
   ];
 
   return (
-    <section className="py-12 mt-16  px-4 lg:px-0">
+    <section className="py-12 mt-16  px-4 lg:px-0" id="destination">
       <div className="container mx-auto px-10">
         <div className="flex justify-between items-start mb-6">
           <div className="w-1/2">

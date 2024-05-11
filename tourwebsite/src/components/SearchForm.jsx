@@ -3,7 +3,10 @@ import { FiMapPin, FiCalendar, FiUsers } from "react-icons/fi";
 
 const SearchForm = () => {
   return (
-    <div className="absolute -bottom-20 w-full flex justify-center mb-8">
+    <div
+      className="hidden lg:flex absolute -bottom-20 w-full justify-center mb-8"
+      id="flight"
+    >
       <div className="bg-gray-50 p-6 shadow-lg shadow-gray-200 relative">
         <div className="flex flex-row items-start justify-center">
           <div className="flex flex-col items-start justify-center mb-4 md:mb-0 md:mr-4 relative">
