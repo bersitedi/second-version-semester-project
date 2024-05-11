@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
 import background from "../../assets/try.mp4";
 import { Link } from "react-router-dom";
+import SearchForm from "../../components/SearchForm";
 
 const HeroPage = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,20 +13,18 @@ const HeroPage = () => {
 
   return (
     <header className="relative">
-      {/* Social Links */}
       <div className="flex items-center absolute top-8 left-8 p-4 z-10">
         <Link to="#" className="text-white hover:text-gray-300">
-          <FaFacebook size={24} className="bg-blue-500 p-1 rounded-full" />
+          <FaFacebook size={32} className="bg-blue-600 p-2 rounded-full" />
         </Link>
         <Link to="#" className="text-white hover:text-gray-300 ml-4">
-          <FaTwitter size={24} className="bg-blue-500 p-1 rounded-full" />
+          <FaTwitter size={32} className="bg-blue-600 p-2 rounded-full" />
         </Link>
         <Link to="#" className="text-white hover:text-gray-300 ml-4">
-          <FaYoutube size={24} className="bg-blue-500 p-1 rounded-full" />
+          <FaYoutube size={32} className="bg-blue-600 p-2 rounded-full" />
         </Link>
       </div>
 
-      {/* Navigation */}
       <nav className="flex justify-center absolute top-[90px] left-1/2 transform -translate-x-1/2 p-4 z-10">
         <ul className={`flex space-x-10 ${menuOpen ? "flex-col" : ""}`}>
           <li>
@@ -71,7 +70,6 @@ const HeroPage = () => {
         </ul>
       </nav>
 
-      {/* Header Content */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-start z-10 text-white">
         <h1 className="text-5xl font-bold mb-4">Explore the World</h1>
         <p className="text-lg mb-6">
@@ -79,7 +77,7 @@ const HeroPage = () => {
         </p>
         <Link
           to="#"
-          className="inline-block px-8 py-2 bg-blue-500 font-semibold rounded-md hover:bg-blue-600 transition duration-300"
+          className="inline-block px-8 py-2 bg-blue-600 font-semibold rounded-md hover:bg-blue-500 transition duration-300"
         >
           Learn More
         </Link>
@@ -133,8 +131,8 @@ const HeroPage = () => {
           </li>
         </ul>
       </div>
+      <SearchForm />
 
-      {/* Menu Button */}
       <div
         className="lg:hidden absolute top-4 right-4 cursor-pointer z-20"
         onClick={toggleMenu}
@@ -172,7 +170,6 @@ const HeroPage = () => {
         )}
       </div>
 
-      {/* Video */}
       <video
         autoPlay
         muted
