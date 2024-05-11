@@ -3,13 +3,13 @@ import React from "react";
 const ContactUs = () => {
   return (
     <div className="">
-      <section className="contact-section py-12 px-4 lg:px-0" id="contact">
-        <div className="container mx-auto px-10">
-          <h2 className="text-3xl font-bold mb-6 text-left">
+      <section className="contact-section lg:py-12 px-4 lg:px-0" id="contact">
+        <div className="container mx-auto lg:px-10">
+          <h2 className="text-3xl font-bold lg:mb-6 text-left">
             Contact Us for More Information
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="flex flex-col items-start text-start py-8">
+            <div className="flex flex-col items-start text-start py-4 md:py-8">
               <div className="mb-2">
                 <h3 className="text-xl font-semibold mb-2">Address:</h3>
                 <hr className="border-2 border-gray-300 w-10 mb-2" />
@@ -29,7 +29,7 @@ const ContactUs = () => {
               </div>
             </div>
 
-            <div className="flex flex-col bg-gray-300 py-6 px-8 items-start text-start">
+            <div className="hidden lg:flex flex-col bg-gray-300 py-6 px-4 md:px-8 items-start text-start">
               <div className="mb-4">
                 <h3 className="text-xl font-semibold mb-2">
                   Sign Up to Our Newsletter
@@ -38,7 +38,7 @@ const ContactUs = () => {
                   Get new discounts and information:
                 </p>
               </div>
-              <form className="flex flex-col md:flex-row gap-2">
+              <form className="flex flex-col gap-2">
                 <input
                   type="email"
                   id="newsletter-email"

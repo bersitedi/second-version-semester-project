@@ -19,7 +19,7 @@ const HeroPage = ({ scrollToSection }) => {
   };
   return (
     <header className="relative">
-      <div className="flex items-center absolute top-3 md:top-8 left-3 md:left-8 p-4 z-10">
+      <div className="flex items-center absolute top-2 md:top-8 left-3 md:left-8 p-4 z-10">
         <Link to="#" className="text-white hover:text-gray-300">
           <FaFacebook size={32} className="bg-blue-600 p-2 rounded-full" />
         </Link>

@@ -24,15 +24,18 @@ const SpecialOffers = () => {
   ];
 
   return (
-    <section className="py-12 mt-16  px-4 lg:px-0" id="destination">
-      <div className="container mx-auto px-10">
-        <div className="flex justify-between items-start mb-6">
-          <div className="w-1/2">
+    <section
+      className="py-12 mt-[200px] md:mt-10 lg:mt-16  px-4 lg:px-0"
+      id="destination"
+    >
+      <div className="container mx-auto lg:px-10">
+        <div className="flex flex-col md:flex-row md:justify-between items-start mb-6">
+          <div className="md:w-1/2">
             <h2 className="text-3xl font-bold text-start">Special Offers</h2>
             <hr className="border-4 w-20 mt-3 border-blue-600" />
           </div>
-          <div className="w-1/3">
-            <p className="text-sm text-gray-600 text-start">
+          <div className="md:w-1/3">
+            <p className="text-sm text-gray-600 mt-3 md:mt-0 text-start">
               The point of choosing our website is to get special discounts and
               amazing destinations to make your travel worth the while.
             </p>

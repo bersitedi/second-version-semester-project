@@ -3,8 +3,8 @@ import { FiArrowRight } from "react-icons/fi";
 
 const StaysComponent = () => {
   return (
-    <section className="stays-section py-12 px-4 lg:px-0" id="stays">
-      <div className="container mx-auto px-10">
+    <section className="stays-section py-8 lg:py-12 px-4 lg:px-0" id="stays">
+      <div className="container mx-auto lg:px-10">
         <div className="flex items-center justify-between mb-8">
           <div>
             <h2 className="text-3xl font-bold">Accommodations</h2>
@@ -20,8 +20,8 @@ const StaysComponent = () => {
             />
           </div>
           <div className="lg:w-1/2">
-            <div className="text-center lg:text-left">
-              <div className="-ml-32 bg-blue-500 text-white py-7 pl-8  w-full items-center mb-4">
+            <div className="text-left">
+              <div className="lg:-ml-32 bg-blue-500 text-white py-7 pl-8  w-full items-center mb-4">
                 <h3 className="text-2xl lg:text-3xl font-bold">
                   Luxurious Stay Experience
                 </h3>
@@ -38,7 +38,7 @@ const StaysComponent = () => {
                 </p>
               </div>
             </div>
-            <div className="h-1/2 text-center lg:text-left">
+            <div className="h-1/2 text-left">
               <p className="text-lg mb-4 text-gray-600 font-bold">
                 Book now and find out one of the best accommodations.
                 <br />
