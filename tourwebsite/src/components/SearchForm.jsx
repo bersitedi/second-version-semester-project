@@ -59,7 +59,7 @@ const SearchForm = () => {
         </div>
       </div>
 
-      <button className="bg-blue-600 text-white font-bold hover:bg-blue-500 transition-colors shadow-md shadow-gray-400 px-10">
+      <button className="bg-blue-600 text-sm text-white font-bold hover:bg-blue-500 transition-colors shadow-md shadow-gray-400 px-10">
         SEARCH PLANE
       </button>
     </div>

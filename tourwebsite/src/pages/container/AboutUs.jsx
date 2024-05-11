@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
-    <section className="about-section mt-16 py-12 px-4 lg:px-0">
+    <section className="about-section py-12 px-4 lg:px-0">
       <div className="container px-8 mx-auto flex flex-col lg:flex-row items-center justify-center">
         <div className="lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
           <div className="text-start">
+            <h4 className="text-xl text-blue-600 font-bold mb-2">About Us</h4>
             <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-4">
               It's Better to Travel Well Than to Arrive
             </h2>

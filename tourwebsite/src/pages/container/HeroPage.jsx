@@ -37,6 +37,14 @@ const HeroPage = () => {
           </li>
           <li>
             <Link
+              to="#"
+              className="text-white font-bold text-xl hover:text-blue-500"
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/stays.html"
               className="text-white font-bold text-xl hover:text-blue-500"
             >
